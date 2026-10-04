@@ -10,6 +10,6 @@ zig build test --summary all
 zig build run-pack -- --random 20 300 1000
 ```
 
-The `run-pack` command will search for a configuration of packed trees, by applying a perturbation to a subset them.
+The `run-pack` command will search for a configuration of packed trees by applying a perturbation to a subset of them.
 
 ![Twenty packed trees](./pack.png)
