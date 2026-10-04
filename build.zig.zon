@@ -1,0 +1,17 @@
+.{
+    .name = .tree_packing,
+    .version = "0.0.0",
+    .fingerprint = 0x25304e55b763067d,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .zigimg = .{
+            .url = "git+https://github.com/zigimg/zigimg.git#fcdd0d28d6393c747b2091874ed180856ab0ab73",
+            .hash = "zigimg-0.1.0-8_eo2llOGABcmeR44Z0MzHK5WK34KxFhrDBzqAjFpQF0",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "tree_packing",
+    },
+}
